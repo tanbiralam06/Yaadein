@@ -3,7 +3,7 @@ import Link from "next/link";
 export const siteConfig = {
   name: "Yaadein",
   description: "Crafting Emotional Memories",
-  whatsapp: "https://wa.me/91XXXXXXXXXX", // Replace with real number later
+  whatsapp: "https://wa.me/919330404130",
   founder: {
     name: "Tanbir",
     story:
