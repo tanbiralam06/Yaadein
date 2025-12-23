@@ -13,7 +13,7 @@ export default function Home() {
 
       <section
         id="how-it-works"
-        className="py-24 bg-secondary text-ivory relative overflow-hidden"
+        className="py-24 bg-background relative overflow-hidden"
       >
         {/* Subtle background glow */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/2" />
@@ -40,15 +40,15 @@ export default function Home() {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="p-10 bg-ivory/[0.03] backdrop-blur-sm rounded-3xl border border-ivory/[0.08] hover:border-primary/30 transition-all duration-500 group text-left"
+                className="p-10 dark:bg-secondary bg-ivory rounded-3xl border border-primary/10 hover:border-primary/30 transition-all duration-500 shadow-xl group text-left"
               >
                 <span className="text-4xl font-serif text-primary/40 group-hover:text-primary transition-colors mb-6 block font-bold">
                   {item.step}
                 </span>
-                <h3 className="text-2xl font-bold mb-4 font-serif text-ivory">
+                <h3 className="text-2xl font-bold mb-4 font-serif dark:text-ivory text-secondary">
                   {item.title}
                 </h3>
-                <p className="text-ivory/60 leading-relaxed font-sans text-sm">
+                <p className="dark:text-ivory/60 text-secondary/60 leading-relaxed font-sans text-sm">
                   {item.desc}
                 </p>
               </div>
