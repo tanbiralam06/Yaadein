@@ -39,16 +39,43 @@ export default function PlanAGiftPage() {
 
   const router = useRouter();
 
+  const [error, setError] = useState<string | null>(null);
+
+  const canProceed = () => {
+    switch (step) {
+      case 0:
+        return formData.occasion !== "";
+      case 1:
+        return formData.receiverAge !== "" && formData.relationship !== "";
+      case 2:
+        return formData.emotion.length >= 10;
+      case 4:
+        return formData.locality !== "" && formData.date !== "";
+      default:
+        return true;
+    }
+  };
+
   const handleNext = () => {
+    if (!canProceed()) {
+      setError("Please fill in the required details to move forward.");
+      return;
+    }
+    setError(null);
     if (step < sections.length - 1) setStep(step + 1);
   };
 
   const handleBack = () => {
+    setError(null);
     if (step > 0) setStep(step - 1);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.userName || !formData.userPhone) {
+      setError("Please provide your name and WhatsApp number.");
+      return;
+    }
     try {
       const response = await fetch("/api/submissions", {
         method: "POST",
@@ -60,14 +87,15 @@ export default function PlanAGiftPage() {
       if (result.success) {
         router.push(`/confirmation/${result.orderId}`);
       } else {
-        alert("Something went wrong. Please try again.");
+        setError("Something went wrong. Please try again.");
       }
     } catch (error) {
-      alert("Error submitting request. Please check your connection.");
+      setError("Error submitting request. Please check your connection.");
     }
   };
 
   const updateField = (field: string, value: string) => {
+    setError(null);
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
@@ -343,6 +371,20 @@ export default function PlanAGiftPage() {
                     </div>
                   )}
                 </motion.div>
+              </AnimatePresence>
+
+              <AnimatePresence>
+                {error && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    className="mt-6 p-4 bg-red-50 text-red-600 rounded-xl text-sm font-medium border border-red-100 flex items-center gap-2"
+                  >
+                    <div className="w-1.5 h-1.5 rounded-full bg-red-600" />
+                    {error}
+                  </motion.div>
+                )}
               </AnimatePresence>
 
               <footer className="mt-12 flex items-center justify-between">
