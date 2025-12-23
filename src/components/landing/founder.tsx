@@ -39,9 +39,9 @@ export function Founder() {
             <div className="mt-12">
               <a
                 href={siteConfig.whatsapp}
-                className="inline-flex items-center gap-3 px-10 py-4 bg-[#25D366] text-white font-bold rounded-full hover:shadow-xl transition-all scale-100 hover:scale-105 active:scale-95"
+                className="inline-flex items-center gap-3 px-10 py-4 bg-primary text-ivory font-bold rounded-full hover:shadow-xl transition-all scale-100 hover:scale-105 active:scale-95"
               >
-                <MessageCircle className="w-5 h-5 fill-white" />
+                <MessageCircle className="w-5 h-5 fill-ivory" />
                 Connect on WhatsApp
               </a>
             </div>
