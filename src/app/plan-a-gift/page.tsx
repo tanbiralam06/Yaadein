@@ -225,9 +225,22 @@ export default function PlanAGiftPage() {
                         </label>
                         <textarea
                           placeholder="What makes them smile? (books, colors, flowers, etc.)"
-                          className="w-full p-4 rounded-xl border border-primary/10 focus:border-primary outline-none min-h-[100px]"
+                          className="w-full p-4 rounded-xl border border-primary/10 focus:border-primary outline-none min-h-[80px]"
                           value={formData.likes}
                           onChange={(e) => updateField("likes", e.target.value)}
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-foreground/60 uppercase tracking-wider">
+                          Dislikes
+                        </label>
+                        <textarea
+                          placeholder="Anything they are not fond of? (e.g. specific colors, certain items)"
+                          className="w-full p-4 rounded-xl border border-primary/10 focus:border-primary outline-none min-h-[80px]"
+                          value={formData.dislikes}
+                          onChange={(e) =>
+                            updateField("dislikes", e.target.value)
+                          }
                         />
                       </div>
                     </div>
