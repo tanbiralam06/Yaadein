@@ -29,6 +29,20 @@ export async function POST(request: Request) {
     submissions.push(submission);
     fs.writeFileSync(DB_PATH, JSON.stringify(submissions, null, 2));
 
+    // Send to Google Sheets (Async - don't await to keep response fast, or await if you want to be sure)
+    const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    if (webhookUrl) {
+      try {
+        fetch(webhookUrl, {
+          method: "POST",
+          body: JSON.stringify(submission),
+          headers: { "Content-Type": "application/json" },
+        }).catch((err) => console.error("Google Sheets async error:", err));
+      } catch (webhookError) {
+        console.error("Failed to trigger Google Sheets webhook:", webhookError);
+      }
+    }
+
     return NextResponse.json({ success: true, orderId });
   } catch (error) {
     console.error("Submission error:", error);
