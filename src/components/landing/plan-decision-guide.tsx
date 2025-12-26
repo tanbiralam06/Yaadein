@@ -27,13 +27,13 @@ export function PlanDecisionGuide() {
           <div className="relative bg-background border border-secondary/10 w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl p-8 md:p-12 animate-in fade-in zoom-in duration-300">
             <button
               onClick={() => setShowGuide(false)}
-              className="absolute top-6 right-6 p-2 hover:bg-secondary/5 rounded-full transition-colors text-secondary"
+              className="absolute top-6 right-6 p-2 hover:bg-secondary/5 rounded-full transition-colors text-foreground/70 hover:text-foreground"
             >
               <X className="w-6 h-6" />
             </button>
 
             <div className="text-center mb-10">
-              <h3 className="text-2xl font-serif mb-2 text-secondary">
+              <h3 className="text-2xl font-serif mb-2 text-foreground">
                 Which plan should you choose?
               </h3>
               <p className="text-foreground/60 font-sans text-sm">
@@ -45,7 +45,7 @@ export function PlanDecisionGuide() {
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-[#A1887F]" />
-                  <h4 className="font-bold font-serif text-secondary/80">
+                  <h4 className="font-bold font-serif text-foreground/90">
                     Standard if:
                   </h4>
                 </div>
@@ -64,7 +64,7 @@ export function PlanDecisionGuide() {
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-[#FBC02D]" />
-                  <h4 className="font-bold font-serif text-secondary/80">
+                  <h4 className="font-bold font-serif text-foreground/90">
                     Premium if:
                   </h4>
                 </div>
@@ -83,7 +83,7 @@ export function PlanDecisionGuide() {
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-[#F57C00]" />
-                  <h4 className="font-bold font-serif text-secondary/80">
+                  <h4 className="font-bold font-serif text-foreground/90">
                     Signature if:
                   </h4>
                 </div>
@@ -99,7 +99,7 @@ export function PlanDecisionGuide() {
               </div>
             </div>
 
-            <p className="text-center text-sm font-sans text-secondary/70 border-t border-secondary/5 pt-8">
+            <p className="text-center text-sm font-sans text-foreground/70 border-t border-foreground/5 pt-8">
               Still unsure?{" "}
               <span className="font-bold text-primary">Start with Premium</span>{" "}
               — we’ll guide you to the right fit during our call.
