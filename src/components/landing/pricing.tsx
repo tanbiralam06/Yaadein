@@ -104,6 +104,10 @@ export function Pricing() {
             </div>
           ))}
         </div>
+
+        <p className="text-center text-foreground/50 mt-12 font-sans italic">
+          Most gifts are thoughtfully finalized within the very first call.
+        </p>
       </div>
     </section>
   );
