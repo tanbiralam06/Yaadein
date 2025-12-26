@@ -13,12 +13,12 @@ export default function RefundPolicy() {
           Back to Home
         </Link>
 
-        <h1 className="text-4xl md:text-5xl font-serif mb-6 text-secondary">
+        <h1 className="text-4xl md:text-5xl font-serif mb-6 text-foreground">
           Refund & Cancellation Policy
         </h1>
 
         <div className="mb-16 p-6 bg-secondary/5 border-l-4 border-primary rounded-r-lg">
-          <h2 className="text-xl font-serif mb-3 text-secondary italic">
+          <h2 className="text-xl font-serif mb-3 text-foreground italic">
             Our Philosophy
           </h2>
           <p className="font-sans text-foreground/80 leading-relaxed italic">
@@ -31,17 +31,17 @@ export default function RefundPolicy() {
 
         <div className="space-y-16 font-sans text-foreground/80 leading-relaxed">
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 1
               </span>
               Service Fee (Standard / Premium / Signature)
             </h2>
             <div className="space-y-4">
-              <p className="font-bold text-secondary text-lg italic underline decoration-primary/30 underline-offset-4">
+              <p className="font-bold text-foreground text-lg italic underline decoration-primary/30 underline-offset-4">
                 Is the service fee refundable?
               </p>
-              <p className="font-semibold text-secondary">
+              <p className="font-semibold text-foreground/90">
                 Short answer: No, once work has begun.
               </p>
               <p>The service fee covers:</p>
@@ -67,21 +67,21 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 2
               </span>
               Gift / Product Cost
             </h2>
             <div className="space-y-4">
-              <p className="font-bold text-secondary text-lg italic underline decoration-primary/30 underline-offset-4">
+              <p className="font-bold text-foreground text-lg italic underline decoration-primary/30 underline-offset-4">
                 What about the gift item cost?
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Gift item costs are always shared with you in advance</li>
                 <li>We purchase items only after your explicit approval</li>
               </ul>
-              <p className="font-semibold text-secondary mt-6">
+              <p className="font-semibold text-foreground/90 mt-6">
                 Once items are purchased:
               </p>
               <ul className="list-disc pl-6 space-y-2">
@@ -107,7 +107,7 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 3
               </span>
@@ -115,21 +115,21 @@ export default function RefundPolicy() {
             </h2>
             <div className="grid gap-6">
               <div className="border border-secondary/10 p-5 rounded-xl">
-                <p className="font-bold text-secondary mb-2">
+                <p className="font-bold text-foreground mb-2">
                   Before approving the gift plan
                 </p>
                 <p className="text-sm">No charges apply.</p>
               </div>
               <div className="border border-secondary/10 p-5 rounded-xl">
-                <p className="font-bold text-secondary mb-2">
+                <p className="font-bold text-foreground mb-2">
                   After paying service fee, before purchase
                 </p>
                 <p className="text-sm">
                   Service fee is non-refundable, no product cost charged.
                 </p>
               </div>
-              <div className="border border-secondary/10 p-5 rounded-xl bg-secondary/[0.02]">
-                <p className="font-bold text-secondary mb-2">
+              <div className="border border-secondary/10 p-5 rounded-xl bg-foreground/[0.02]">
+                <p className="font-bold text-foreground mb-2">
                   After product purchase
                 </p>
                 <p className="text-sm">
@@ -140,7 +140,7 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 4
               </span>
@@ -149,7 +149,7 @@ export default function RefundPolicy() {
             <p className="mb-4">We understand plans can change.</p>
             <div className="space-y-6">
               <div>
-                <p className="font-bold text-secondary">Minor changes</p>
+                <p className="font-bold text-foreground">Minor changes</p>
                 <p className="text-sm text-foreground/60">
                   (date, message text, packaging preference)
                 </p>
@@ -158,7 +158,7 @@ export default function RefundPolicy() {
                 </p>
               </div>
               <div>
-                <p className="font-bold text-secondary">Major changes</p>
+                <p className="font-bold text-foreground">Major changes</p>
                 <p className="text-sm text-foreground/60">
                   (new occasion, new recipient, new concept)
                 </p>
@@ -172,14 +172,14 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 5
               </span>
               Same-Day & Urgent Orders
             </h2>
             <div className="p-5 bg-amber-500/5 border border-amber-500/20 rounded-xl">
-              <p className="font-bold text-secondary mb-2 uppercase tracking-wide text-xs">
+              <p className="font-bold text-foreground mb-2 uppercase tracking-wide text-xs">
                 Important Clause
               </p>
               <p>
@@ -191,7 +191,7 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 6
               </span>
@@ -208,7 +208,7 @@ export default function RefundPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-serif mb-6 text-secondary flex items-center gap-3">
+            <h2 className="text-2xl font-serif mb-6 text-foreground flex items-center gap-3">
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 7
               </span>
@@ -226,7 +226,7 @@ export default function RefundPolicy() {
 
           <section className="pt-10">
             <div className="text-center space-y-6">
-              <h2 className="text-3xl font-serif text-secondary italic">
+              <h2 className="text-3xl font-serif text-foreground italic">
                 8. A Human Promise
               </h2>
               <div className="max-w-xl mx-auto space-y-4">
@@ -240,7 +240,7 @@ export default function RefundPolicy() {
                 </p>
                 <a
                   href="https://wa.me/919330404130"
-                  className="inline-flex items-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:shadow-lg transition-all scale-100 hover:scale-105 active:scale-95 mt-8"
+                  className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-bold hover:shadow-lg transition-all scale-100 hover:scale-105 active:scale-95 mt-8"
                 >
                   <MessageCircle className="w-5 h-5" />
                   Talk to Us on WhatsApp
