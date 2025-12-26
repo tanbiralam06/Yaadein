@@ -40,6 +40,14 @@ export function Footer() {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-12 text-xs font-sans tracking-widest uppercase">
           <p>© {new Date().getFullYear()} Yaadein. All rights reserved.</p>
+          <div className="flex gap-4">
+            <Link
+              href="/refund-policy"
+              className="hover:text-primary transition-colors"
+            >
+              Refund Policy
+            </Link>
+          </div>
           <p>Handcrafted for Kolkata ❤️</p>
         </div>
       </div>
