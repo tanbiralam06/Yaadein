@@ -6,23 +6,23 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "Is the gift cost included in the pricing?",
-    a: "No. Our pricing (Standard/Premium/Signature) is the service fee for curation, planning, and execution. The actual cost of the gift items will be shared with you and billed at actuals after your approval.",
+    a: "No. Our Standard, Premium, and Signature prices cover emotional curation, planning, and execution. The actual cost of gift items is shared transparently and billed at actuals only after your approval.",
   },
   {
     q: "How do I pay for the service?",
-    a: "We follow a manual trust-based flow. Once you submit the form and we finalize the plan on WhatsApp, you can pay via UPI or Bank Transfer.",
+    a: "Payment is requested only after your gift plan is finalized and approved. You can pay securely via UPI or bank transfer.",
   },
   {
     q: "Do you only deliver in Kolkata?",
-    a: "Yes, for the MVP, we are exclusively focused on delivering high-quality emotional gifting experiences within Kolkata city limits.",
+    a: "Currently, we deliver within Kolkata city limits to ensure quality and attention to detail. We plan to expand to other cities soon.",
   },
   {
     q: "What if I don't know what to gift?",
-    a: "That's exactly why we're here! You just need to share the emotion and details about the person. We will brainstorm and propose 2-3 unique gift strategies for you to choose from.",
+    a: "That’s exactly why we exist. You only need to share the emotion and details about the person. We’ll thoughtfully propose 2–3 meaningful gift ideas for you to choose from.",
   },
   {
     q: "Can you deliver on the same day?",
-    a: "Same-day delivery is available under our Premium and Signature plans, provided the request is submitted before 12 PM local time.",
+    a: "Same-day delivery is available under our Premium and Signature plans for requests submitted before 12 PM, subject to availability within Kolkata.",
   },
 ];
 
