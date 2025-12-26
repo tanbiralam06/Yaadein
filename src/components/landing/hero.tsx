@@ -39,12 +39,12 @@ export function Hero() {
           >
             Plan a Gift
           </Link>
-          <a
+          {/* <a
             href={siteConfig.whatsapp}
             className="px-10 py-4 bg-secondary text-ivory font-bold rounded-lg hover:bg-secondary/90 transition-all duration-300 scale-100 hover:scale-105 active:scale-95"
           >
             Talk to Founder
-          </a>
+          </a> */}
         </div>
       </motion.div>
 
