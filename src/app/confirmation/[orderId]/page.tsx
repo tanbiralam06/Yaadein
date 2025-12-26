@@ -50,10 +50,9 @@ export default function ConfirmationPage() {
                 What happens next?
               </h3>
               <p className="text-sm text-foreground/70 font-sans leading-relaxed">
-                Our founder, Tanbir, will review your emotional intent
-                personally. Expect a WhatsApp message from us within{" "}
-                <strong>2 hours</strong> to discuss the gift strategy and next
-                steps.
+                Our team will review your emotional intent personally. Expect a
+                WhatsApp message from us within <strong>2 hours</strong> to
+                discuss the gift strategy and next steps.
               </p>
             </div>
 
