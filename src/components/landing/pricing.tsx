@@ -1,6 +1,7 @@
 import { siteConfig } from "@/lib/config";
 import { Check } from "lucide-react";
 import Link from "next/link";
+import { PlanDecisionGuide } from "./plan-decision-guide";
 
 const plans = [
   {
@@ -55,6 +56,7 @@ export function Pricing() {
             Our service fee covers the emotional curation, manual effort, and
             trust. The gift cost is billed separately at actuals.
           </p>
+          <PlanDecisionGuide />
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
