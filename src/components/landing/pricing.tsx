@@ -11,6 +11,7 @@ const plans = [
       "15-min WhatsApp Consultation",
       "Manual Gift Selection",
       "Standard Hand-written Note",
+      "For simple yet meaningful moments",
       "Execution in 48 hours",
       "Gift cost not included",
     ],
@@ -23,6 +24,7 @@ const plans = [
       "30-min Video/Voice Call",
       "Custom Gift Strategy",
       "Premium Stationery & Wax Seal",
+      "When emotion and presentation both matter",
       "Same-day Execution (Kolkata Only)",
       "Gift cost not included",
     ],
@@ -36,6 +38,7 @@ const plans = [
       "Unlimited Consultation",
       "Multi-part Gifting Flow",
       "Video Message Integration",
+      "For once-in-a-lifetime memories",
       "VIP Concierge Delivery",
       "Gift cost not included",
     ],
@@ -106,7 +109,7 @@ export function Pricing() {
         </div>
 
         <p className="text-center text-foreground/50 mt-12 font-sans italic">
-          Most gifts are thoughtfully finalized within the very first call.
+          *Most gifts are thoughtfully finalized within the very first call.
         </p>
       </div>
     </section>
