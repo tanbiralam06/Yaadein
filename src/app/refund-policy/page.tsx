@@ -227,7 +227,7 @@ export default function RefundPolicy() {
           <section className="pt-10">
             <div className="text-center space-y-6">
               <h2 className="text-3xl font-serif text-foreground italic">
-                8. A Human Promise
+                A Human Promise
               </h2>
               <div className="max-w-xl mx-auto space-y-4">
                 <p className="text-lg">
