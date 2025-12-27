@@ -32,7 +32,7 @@ export function PlanDecisionGuide() {
               <X className="w-6 h-6" />
             </button>
 
-            <div className="text-center mb-10">
+            <div className="text-center mb-6">
               <h3 className="text-2xl font-serif mb-2 text-foreground">
                 Which plan should you choose?
               </h3>
@@ -41,7 +41,7 @@ export function PlanDecisionGuide() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-10 text-left">
+            <div className="grid md:grid-cols-3 gap-8 mb-6 text-left">
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 rounded-full bg-[#A1887F]" />
