@@ -8,6 +8,18 @@ export async function PATCH(request: Request) {
   try {
     const { orderId, status } = await request.json();
 
+    const isVercel = process.env.VERCEL === "1";
+    if (isVercel) {
+      return NextResponse.json(
+        {
+          success: false,
+          error:
+            "Status updates are currently only supported in development mode (local) while using local file storage.",
+        },
+        { status: 403 }
+      );
+    }
+
     if (!fs.existsSync(DB_PATH)) {
       return NextResponse.json(
         { success: false, error: "DB not found" },
@@ -31,6 +43,7 @@ export async function PATCH(request: Request) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
+    console.error("Status update error:", error);
     return NextResponse.json(
       { success: false, error: "Failed to update" },
       { status: 500 }
