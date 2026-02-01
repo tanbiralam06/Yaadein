@@ -9,7 +9,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | ${siteConfig.description}`,
+  title: `${siteConfig.name} | ${siteConfig.tagline}`,
   description: siteConfig.description,
   keywords: siteConfig.keywords,
 };

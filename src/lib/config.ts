@@ -2,7 +2,9 @@ import Link from "next/link";
 
 export const siteConfig = {
   name: "Ehsaara",
-  description: "Crafting Emotional Memories",
+  tagline: "Crafting Emotional Memories",
+  description:
+    "Ehsaara is a gifting service based in Kolkata that specializes in creating personalized gifts for all occasions. From birthdays to anniversaries, we help you celebrate every moment with a thoughtful and unique gift.",
   keywords: [
     "Emotional Gifting",
     "Kolkata Gifting Service",
