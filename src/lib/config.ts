@@ -18,8 +18,8 @@ export const siteConfig = {
   ],
   whatsapp: "https://wa.me/919330404130",
   founder: {
-    name: "Tanbir",
+    name: "Tanbir & Samriddhi",
     story:
-      "Ehsaara was born out of a simple observation: Gifting has become transactional. I wanted to bring back the emotion, the thought, and the memory behind every physical gift.",
+      "Ehsaara was born out of a simple observation: Gifting has become transactional. We wanted to bring back the emotion, the thought, and the memory behind every physical gift.",
   },
 };

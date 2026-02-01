@@ -31,8 +31,8 @@ export function Founder() {
               <p>
                 &quot;Trust is the foundation of every gift. When you choose
                 Ehsaara, you aren&apos;t just buying a service; you are letting
-                us be a part of your memory. I personally oversee every order to
-                ensure it meets our standard of emotional excellence.&quot;
+                us be a part of your memory. We personally oversee every order
+                to ensure it meets our standard of emotional excellence.&quot;
               </p>
             </div>
 
