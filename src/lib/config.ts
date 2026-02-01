@@ -3,6 +3,15 @@ import Link from "next/link";
 export const siteConfig = {
   name: "Ehsaara",
   description: "Crafting Emotional Memories",
+  keywords: [
+    "Emotional Gifting",
+    "Kolkata Gifting Service",
+    "Personalized Gifts",
+    "Ehsaara",
+    "Memory Planning",
+    "Custom Gifts Kolkata",
+    "Gift Planning",
+  ],
   whatsapp: "https://wa.me/919330404130",
   founder: {
     name: "Tanbir",

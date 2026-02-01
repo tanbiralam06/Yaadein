@@ -5,6 +5,14 @@ import { Pricing } from "@/components/landing/pricing";
 import { Founder } from "@/components/landing/founder";
 import { FAQ } from "@/components/landing/faq";
 import { Footer } from "@/components/landing/footer";
+import { Metadata } from "next";
+import { siteConfig } from "@/lib/config";
+
+export const metadata: Metadata = {
+  title: `${siteConfig.name} | ${siteConfig.description}`,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+};
 
 export default function Home() {
   return (
