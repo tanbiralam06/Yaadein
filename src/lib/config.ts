@@ -5,6 +5,8 @@ export const siteConfig = {
   tagline: "Crafting Emotional Memories",
   description:
     "Ehsaara is a gifting service based in Kolkata that specializes in creating personalized gifts for all occasions. From birthdays to anniversaries, we help you celebrate every moment with a thoughtful and unique gift.",
+  url: "https://ehsaara.com",
+  ogImage: "https://ehsaara.com/og.jpg",
   keywords: [
     "Emotional Gifting",
     "Kolkata Gifting Service",
