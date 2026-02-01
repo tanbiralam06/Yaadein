@@ -18,7 +18,7 @@ export function Founder() {
                 {siteConfig.founder.name}
               </h4>
               <p className="text-[10px] uppercase tracking-[0.2em] dark:text-ivory/40 text-secondary/40 font-bold">
-                Founder, Yaadein
+                Founder, Ehsaara
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ export function Founder() {
               <p>&quot;{siteConfig.founder.story}&quot;</p>
               <p>
                 &quot;Trust is the foundation of every gift. When you choose
-                Yaadein, you aren&apos;t just buying a service; you are letting
+                Ehsaara, you aren&apos;t just buying a service; you are letting
                 us be a part of your memory. I personally oversee every order to
                 ensure it meets our standard of emotional excellence.&quot;
               </p>

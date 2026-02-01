@@ -31,7 +31,7 @@ export default function FounderDashboard() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === "yaadein2025") {
+    if (password === "ehsaara2025") {
       // Simple hardcoded password for MVP
       setAuthenticated(true);
     } else {
@@ -157,7 +157,7 @@ export default function FounderDashboard() {
                     <td className="px-6 py-4">
                       <span
                         className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${getStatusColor(
-                          sub.status
+                          sub.status,
                         )}`}
                       >
                         {sub.status}

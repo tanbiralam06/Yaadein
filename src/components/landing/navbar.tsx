@@ -27,7 +27,7 @@ export function Navbar() {
           href="/"
           className="text-2xl font-serif font-bold tracking-tight text-primary"
         >
-          Yaadein
+          Ehsaara
         </Link>
         <div className="hidden md:flex gap-8 items-center font-sans text-sm font-medium">
           <Link

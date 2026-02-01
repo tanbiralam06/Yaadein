@@ -28,7 +28,7 @@ export function Hero() {
           Time.
         </h1>
         <p className="text-lg md:text-xl text-foreground/70 mb-12 max-w-2xl mx-auto font-sans leading-relaxed">
-          Yaadein helps you craft meaningful gifts that speak volumes. Tell us
+          Ehsaara helps you craft meaningful gifts that speak volumes. Tell us
           your story, and we&quot;ll design the perfect emotion.
         </p>
 

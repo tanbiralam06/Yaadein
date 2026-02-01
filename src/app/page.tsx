@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
 
-      <section id="why-yaadein" className="py-24">
+      <section id="why-ehsaara" className="py-24">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-16">
             <div className="flex-1">

@@ -22,7 +22,7 @@ export default function RefundPolicy() {
             Our Philosophy
           </h2>
           <p className="font-sans text-foreground/80 leading-relaxed italic">
-            At Yaadein, every gift begins with time, thought, and emotional
+            At Ehsaara, every gift begins with time, thought, and emotional
             effort. Our policies are designed to be fair, transparent, and
             respectful—to both our customers and the people crafting their
             memories.
@@ -195,7 +195,7 @@ export default function RefundPolicy() {
               <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-base">
                 6
               </span>
-              If Yaadein Is Unable to Deliver
+              If Ehsaara Is Unable to Deliver
             </h2>
             <p>
               In rare cases where we are unable to deliver due to operational

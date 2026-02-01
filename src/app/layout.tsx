@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Yaadein | Emotional Gifting in Kolkata",
+  title: "Ehsaara | Emotional Gifting in Kolkata",
   description:
     "Simple, trust-focused gift planning for your loved ones in Kolkata.",
 };

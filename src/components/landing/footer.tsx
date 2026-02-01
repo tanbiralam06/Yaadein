@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 border-b border-ivory/5 pb-12">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-serif text-primary font-bold mb-2">
-              Yaadein
+              Ehsaara
             </h2>
             <p className="font-sans text-sm tracking-wide">
               Crafting Emotions into Memories.
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-12 text-xs font-sans tracking-widest uppercase">
-          <p>© {new Date().getFullYear()} Yaadein. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ehsaara. All rights reserved.</p>
           <div className="flex gap-4">
             <Link
               href="/refund-policy"
